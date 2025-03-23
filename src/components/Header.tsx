@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 import { Button } from "@/components/ui/button";
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
@@ -32,9 +31,9 @@ const Header = ({ onTabChange, activeTab }: HeaderProps) => {
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         <div className="flex items-center space-x-2">
           <div className="h-8 w-8 rounded-full bg-primary flex items-center justify-center">
-            <span className="text-white font-semibold">A</span>
+            <span className="text-white font-semibold">S</span>
           </div>
-          <h1 className="text-xl font-semibold">ArbiRoot</h1>
+          <h1 className="text-xl font-semibold">SnipBot</h1>
         </div>
         
         <Tabs defaultValue={activeTab} onValueChange={onTabChange} className="h-10">
