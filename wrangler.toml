@@ -1,0 +1,9 @@
+[account]
+api_token = "y-LBKUlQY-o9QJcRadX6rDk4o6sfYTnCbwcnMaDI"
+account_id = "ef37c9a3eca2ace492092d5399db939d"
+
+name = "arbiroot-navigator"
+compatibility_date = "2025-03-23"
+
+[assets]
+directory = "dist"
